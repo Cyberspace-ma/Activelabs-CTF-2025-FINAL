@@ -46,6 +46,20 @@ Welcome to the CTF Writeups Repository! Below is a list of challenges categorize
 - **Medium**: 4-9 solves
 - **Hard**: 0-3 solves
 
+## Scoreboard:
+| Overall Rank | Team                     | Solved | Score  |
+|--------------|--------------------------|--------|--------|
+| 1            | 3omra                    | 19     | 6627   |
+| 2            | Copyright                | 14     | 5135   |
+| 3            | LMOHANDISSIN SKHAN       | 15     | 5043   |
+| 4            | Underdogs                | 15     | 5021   |
+| 5            | RaBi3a                   | 14     | 4563   |
+| 6            | Pack0ffs                 | 11     | 3797   |
+| 7            | Nexus Trio               | 10     | 3794   |
+| 8            | Newbies                  | 9      | 2823   |
+| 9            | M4rshals                 | 8      | 2662   |
+| 10           | Punishers                | 7      | 2261   |
+
 
 ## Authors:
 
