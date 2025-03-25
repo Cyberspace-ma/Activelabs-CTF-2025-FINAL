@@ -7,10 +7,6 @@ A cybersecurity competition challenging participants across domains like cryptog
 
 Welcome to the CTF Writeups Repository! Below is a list of challenges categorized by type, with their respective difficulty levels based on the number of solves.
 
-Here’s the updated table with the authors added:
-
-Here’s the table with each category ordered by its difficulty:
-
 | Category  | Challenge Name         | Points | Solves | Difficulty | Authors          |
 |-----------|------------------------|--------|--------|------------|------------------|
 | **MISC**  | Sanity Check            | 186    | 10     | Easy       | Mr_Togoo         |
@@ -69,11 +65,6 @@ Here’s the table with each category ordered by its difficulty:
 
 ---
 ## Challenges
-# CTF Writeups
-
-Welcome to the repository for writeups of various challenges from our CTF event! Below is a list of challenges categorized by type, along with their descriptions, point values, and solve counts.
-
----
 
 ## MISC
 
