@@ -52,7 +52,7 @@ Here’s the table with each category ordered by its difficulty:
 ## Authors:
 
 - **0xY47** (Web, Misc, OSINT)
-- **Mr Togoo** (OSINT, DFIR, Reverse)
+- **Mr_Togoo** (OSINT, DFIR, Reverse)
 - **THE-GOAT** (Pwn, Crypto)
 
 ## Table of Contents
