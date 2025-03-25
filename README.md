@@ -192,17 +192,17 @@ A straightforward web challenge to help you grab some easy points—let’s see 
 ### Brave Game (311 pts)  
 I found it difficult to play against Mr_Togoo. Please help me win against him. I hope for you a good game!!!!!
 
-**Solves:** 8
+**Solves:** 7
 
 ### Hannibal (352 pts)  
 Only one goal: find the flag!!!
 
-**Solves:** 3
+**Solves:** 2
 
 ### Shujaa (247 pts)  
 Talk in L3amar, bro.
 
-**Solves:** 4
+**Solves:** 3
 
 ---
 
