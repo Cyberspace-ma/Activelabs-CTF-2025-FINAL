@@ -21,7 +21,7 @@ The challenge revolves around identifying weak passwords, bypassing a WAF, and s
 3. **Outcome**:
     
     - Upon successful login, a new menu item labeled **"cosmos"** appears in the header.
-![Pasted image 20250110121126](https://github.com/user-attachments/assets/322694b7-d72a-4512-8783-6915356854b6)
+![Pasted image 20250110121203](https://github.com/user-attachments/assets/c4137c7a-61b3-4c7f-a339-5f27fbf75cf7)
 
 
 ---
@@ -63,7 +63,8 @@ The challenge revolves around identifying weak passwords, bypassing a WAF, and s
 1. **Using Admin Credentials**:
     
     - Use the retrieved administrator username and password to log in to the admin portal.
-![Pasted image 20250110121036](https://github.com/user-attachments/assets/9478b8ed-671e-4d01-b91e-402b4f2a1802)
+![Pasted image 20250110121014](https://github.com/user-attachments/assets/9fd1c174-d7a6-4117-b64b-64c0ef257c33)
+
 
 1. **Flag Retrieval**:
     
