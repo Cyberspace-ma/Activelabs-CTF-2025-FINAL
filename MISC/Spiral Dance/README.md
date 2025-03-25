@@ -3,7 +3,7 @@
 **Category**: Programming, Reverse Engineering  
 **Difficulty**: Medium  
 **Author**: xAI (hypothetical, based on context)  
-**Server**: `nc 172.23.92.82 1234`  
+**Server**: `nc misc-ctf.cyberpsca.ma 3003`  
 **Flag**: `CSP{Sp1r4l_D4nc3r_w4s_fun_1sn_it}`  
 
 #### Overview
