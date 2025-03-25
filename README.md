@@ -1,6 +1,8 @@
 # Activelabs-CTF-2025-FINAL
 A cybersecurity competition challenging participants across domains like cryptography, web exploitation, forensics, and OSINT, welcoming skills of all levels.
 
+![finaal](https://github.com/user-attachments/assets/0610ae4a-67c8-463b-aca7-c0ed923fa380)
+
 ### CTF Writeups
 
 Welcome to the CTF Writeups Repository! Below is a list of challenges categorized by type, with their respective difficulty levels based on the number of solves.
