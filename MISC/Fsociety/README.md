@@ -1,4 +1,4 @@
-# fsociety Challenge Writeup
+# fsociety Writeup
 
 ## Overview
 
@@ -28,4 +28,4 @@ The encoded flag **Q1NQe01yX1IwYjB0X3M0eXNfaDNsbDB9** was found as MR Robot's pa
 ```bash
 echo 'Q1NQe01yX1IwYjB0X3M0eXNfaDNsbDB9' | base64 --decode
 
-**Flag** : CSP{Mr_R0b0t_s4ys_h3ll0}
+CSP{Mr_R0b0t_s4ys_h3ll0}
