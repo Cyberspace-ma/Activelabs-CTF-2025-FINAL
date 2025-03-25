@@ -11,11 +11,11 @@ Here’s the table with each category ordered by its difficulty:
 
 | Category  | Challenge Name         | Points | Solves | Difficulty | Authors          |
 |-----------|------------------------|--------|--------|------------|------------------|
-| **MISC**  | Sanity Check            | 186    | 10     | Easy       | 0xY47            |
+| **MISC**  | Sanity Check            | 186    | 10     | Easy       | Mr_Togoo         |
 |           | Spiral Dance            | 311    | 8      | Easy       | 0xY47            |
 |           | Waving                  | 291    | 10     | Easy       | 0xY47            |
 |           | Blacklist Terminal      | 454    | 2      | Medium     | 0xY47            |
-|           | Ciphers                 | 330    | 4      | Medium     | Mr Togoo         |
+|           | Ciphers                 | 330    | 4      | Medium     | Mr_Togoo         |
 |           | Fsociety                | 424    | 8      | Medium     | 0xY47            |
 | **WEB**   | Panel                   | 291    | 10     | Easy       | 0xY47            |
 |           | Sada9at                 | 325    | 7      | Easy       | 0xY47            |
@@ -29,14 +29,14 @@ Here’s the table with each category ordered by its difficulty:
 |           | OLDER THAN ME           | 500    | 1      | Medium     | THE-GOAT         |
 |           | TOTAL WAR               | 311    | 8      | Medium     | THE-GOAT         |
 |           | SIGABA                  | 500    | 0      | Hard       | THE-GOAT         |
-| **REVERSE**| Brave Game             | 311    | 8      | Medium     | Mr Togoo         |
-|           | Shujaa                  | 247    | 4      | Medium     | Mr Togoo         |
-|           | Hannibal                | 352    | 3      | Hard       | Mr Togoo         |
-| **DFIR**  | Warmup                  | 500    | 1      | Medium     | Mr Togoo         |
-|           | Behind the Logs         | 454    | 2      | Medium     | Mr Togoo         |
-|           | Chorta El 3ilmya        | 500    | 0      | Hard       | Mr Togoo         |
-|           | Evidence Trace          | 500    | 0      | Hard       | Mr Togoo         |
-| **OSINT** | Techno                  | 278    | 5      | Medium     | Mr Togoo         |
+| **REVERSE**| Brave Game             | 311    | 8      | Medium     | Mr_Togoo         |
+|           | Shujaa                  | 247    | 4      | Medium     | Mr_Togoo         |
+|           | Hannibal                | 352    | 3      | Hard       | Mr_Togoo         |
+| **DFIR**  | Warmup                  | 500    | 1      | Medium     | Mr_Togoo         |
+|           | Behind the Logs         | 454    | 2      | Medium     | Mr_Togoo         |
+|           | Chorta El 3ilmya        | 500    | 0      | Hard       | Mr_Togoo         |
+|           | Evidence Trace          | 500    | 0      | Hard       | Mr_Togoo         |
+| **OSINT** | Techno                  | 278    | 5      | Medium     | Mr_Togoo         |
 |           | Cracked                 | 430    | 7      | Medium     | 0xY47            |
 |           | Operation Talent        | 278    | 5      | Medium     | 0xY47            |
 |           | Activelabs              | 500    | 0      | Hard       | Mr Togoo         |
