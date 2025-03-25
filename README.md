@@ -5,37 +5,43 @@ A cybersecurity competition challenging participants across domains like cryptog
 
 Welcome to the CTF Writeups Repository! Below is a list of challenges categorized by type, with their respective difficulty levels based on the number of solves.
 
-| Category | Challenge Name | Points | Solves | Difficulty |
-|----------|--------------|--------|--------|------------|
-| **MISC** | Blacklist Terminal | 454 | 2 | Medium |
-|  | Ciphers | 330 | 4 | Medium |
-|  | Fsociety | 424 | 8 | Medium |
-|  | Sanity Check | 186 | 10 | Easy |
-|  | Spiral Dance | 311 | 8 | Easy |
-|  | Waving | 291 | 10 | Easy |
-| **CRYPTO** | MADNESS | 373 | 6 | Medium |
-|  | OLDER THAN ME | 500 | 1 | Medium |
-|  | SIGABA | 500 | 0 | Hard |
-|  | TOTAL WAR | 311 | 8 | Medium |
-| **PWN** | 3W | 362 | 5 | Medium |
-|  | ROCKET | 279 | 5 | Medium |
-|  | SCRATCH | 500 | 0 | Hard |
-| **WEB** | Bucket | 481 | 2 | Medium |
-|  | Cosmos | 500 | 0 | Hard |
-|  | Mars | 417 | 3 | Medium |
-|  | Panel | 291 | 10 | Easy |
-|  | Sada9at | 325 | 7 | Easy |
-| **REVERSE** | Brave Game | 311 | 8 | Medium |
-|  | Hannibal | 352 | 3 | Hard |
-|  | Shujaa | 247 | 4 | Medium |
-| **DFIR** | Behind the Logs | 454 | 2 | Medium |
-|  | Chorta El 3ilmya | 500 | 0 | Hard |
-|  | Evidence Trace | 500 | 0 | Hard |
-|  | Warmup | 500 | 1 | Medium |
-| **AI** | THE GUARDIAN | 653 | 3 | Hard |
-| **OSINT** | Activelabs | 500 | 0 | Hard |
-|  | Cracked | 430 | 7 | Medium |
-|  | Techno | 278 | 5 | Medium |
+Here’s the updated table with the authors added:
+
+Here’s the table with each category ordered by its difficulty:
+
+| Category  | Challenge Name         | Points | Solves | Difficulty | Authors          |
+|-----------|------------------------|--------|--------|------------|------------------|
+| **MISC**  | Sanity Check            | 186    | 10     | Easy       | 0xY47            |
+|           | Spiral Dance            | 311    | 8      | Easy       | 0xY47            |
+|           | Waving                  | 291    | 10     | Easy       | 0xY47            |
+|           | Blacklist Terminal      | 454    | 2      | Medium     | 0xY47            |
+|           | Ciphers                 | 330    | 4      | Medium     | Mr Togoo         |
+|           | Fsociety                | 424    | 8      | Medium     | 0xY47            |
+| **WEB**   | Panel                   | 291    | 10     | Easy       | 0xY47            |
+|           | Sada9at                 | 325    | 7      | Easy       | 0xY47            |
+|           | Bucket                  | 481    | 2      | Medium     | 0xY47            |
+|           | Mars                    | 417    | 3      | Medium     | 0xY47            |
+|           | Cosmos                  | 500    | 0      | Hard       | 0xY47            |
+| **PWN**   | ROCKET                  | 279    | 5      | Medium     | THE-GOAT         |
+|           | 3W                      | 362    | 5      | Medium     | THE-GOAT         |
+|           | SCRATCH                 | 500    | 0      | Hard       | THE-GOAT         |
+| **CRYPTO**| MADNESS                 | 373    | 6      | Medium     | THE-GOAT         |
+|           | OLDER THAN ME           | 500    | 1      | Medium     | THE-GOAT         |
+|           | TOTAL WAR               | 311    | 8      | Medium     | THE-GOAT         |
+|           | SIGABA                  | 500    | 0      | Hard       | THE-GOAT         |
+| **REVERSE**| Brave Game             | 311    | 8      | Medium     | Mr Togoo         |
+|           | Shujaa                  | 247    | 4      | Medium     | Mr Togoo         |
+|           | Hannibal                | 352    | 3      | Hard       | Mr Togoo         |
+| **DFIR**  | Warmup                  | 500    | 1      | Medium     | Mr Togoo         |
+|           | Behind the Logs         | 454    | 2      | Medium     | Mr Togoo         |
+|           | Chorta El 3ilmya        | 500    | 0      | Hard       | Mr Togoo         |
+|           | Evidence Trace          | 500    | 0      | Hard       | Mr Togoo         |
+| **OSINT** | Techno                  | 278    | 5      | Medium     | Mr Togoo         |
+|           | Cracked                 | 430    | 7      | Medium     | 0xY47            |
+|           | Operation Talent        | 278    | 5      | Medium     | 0xY47            |
+|           | Activelabs              | 500    | 0      | Hard       | Mr Togoo         |
+| **AI**    | THE GUARDIAN            | 653    | 3      | Hard       | D@rkshell        |
+
 
 ### Difficulty Levels
 - **Easy**: 10+ solves
