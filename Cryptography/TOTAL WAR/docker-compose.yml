@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  totalwar:
+    build: .
+    container_name: totalwar_challenge
+    ports:
+      - "9002:9002"
+    restart: unless-stopped
+    networks:
+      - challenge_net
+
+networks:
+  challenge_net:
+    driver: bridge

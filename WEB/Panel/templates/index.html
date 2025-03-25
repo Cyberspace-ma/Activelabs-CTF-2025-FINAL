@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CTF Challenge</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Secure Server</h1>
+        {% if username %}
+            <p>Logged in as: {{ username }}</p>
+            <a href="{{ url_for('logout') }}" class="btn">Logout</a>
+            {% if session.role == 'admin' %}
+                <a href="{{ url_for('admin') }}" class="btn">Admin Panel</a>
+            {% endif %}
+        {% else %}
+            <p>You are not logged in.</p>
+            <a href="{{ url_for('login') }}" class="btn">Login</a>
+        {% endif %}
+        
+        <div class="info-box">
+            <h2>Server Information</h2>
+            <p>This server uses advanced security mechanisms to protect sensitive data.</p>
+            <p>Only authorized administrators can access the admin panel.</p>
+            <p>All access attempts are logged and monitored.</p>
+        </div>
+        
+        <!-- Hidden hint -->
+        <!-- 
+        TODO: Fix the request matcher in security middleware.
+        John mentioned something about CRLF but I don't see the issue?
+        -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" href="static/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Admin Panel 🚀</h1>
+        <p>Welcome, Admin!</p>
+
+
+        <h2>Notes and Recommendations:</h2>
+        <table class="recommendations-table">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Recommendation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Weak Password Practices</td>
+                    <td>Avoid using weak or common passwords. Implement password policies that enforce complexity.</td>
+                </tr>
+                <tr>
+                    <td>SQL Injection Prevention</td>
+                    <td>Use parameterized queries or prepared statements to prevent SQL injection attacks.</td>
+                </tr>
+                <tr>
+                    <td>WAF Security</td>
+                    <td>Regularly update and test the (WAF) rules to detect and block malicious inputs effectively.</td>
+                </tr>
+                <tr>
+                    <td>Data Encoding</td>
+                    <td>Monitor and validate input data, even if encoded, to ensure it does not bypass security mechanisms.</td>
+                </tr>
+                <tr>
+                    <td>Logging and Alerts</td>
+                    <td>Set up logging and alerting mechanisms to detect unauthorized access attempts in real-time.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p style="margin-top:30px;">Here is our top secret Information, use it carefully:</p>
+        <div class="flag">
+            {{ flag }}
+        </div>
+
+        <a href="{{ url_for('index') }}" class="logout-btn">Logout</a>
+    </div>
+</body>
+</html>

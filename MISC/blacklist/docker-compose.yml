@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  blacklist:
+    build: .
+    container_name: blacklist_challenge
+    ports:
+      - "3002:3002"
+    restart: unless-stopped
+    networks:
+      - challenge_net
+
+networks:
+  challenge_net:
+    driver: bridge

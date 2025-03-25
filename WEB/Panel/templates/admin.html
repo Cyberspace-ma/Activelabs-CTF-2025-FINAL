@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel - CTF Challenge</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Admin Panel</h1>
+        <div class="flag-container">
+            <h2>Congratulations!</h2>
+            <p>You've successfully accessed the admin panel.</p>
+            <div class="flag">
+                <strong>Flag:</strong> {{ flag }}
+            </div>
+        </div>
+        
+        <div class="admin-content">
+            <h3>Server Status</h3>
+            <ul>
+                <li>Users online: 37</li>
+                <li>CPU usage: 42%</li>
+                <li>Memory usage: 2.7GB / 8GB</li>
+                <li>Last backup: 2025-03-19 23:00:00</li>
+            </ul>
+        </div>
+        
+        <a href="{{ url_for('index') }}" class="btn">Back to Home</a>
+    </div>
+</body>
+</html>

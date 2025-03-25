@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chakra Petch", serif;
+    text-align: center;
+}
+
+body {
+    background: #001727;  /* Dark background */
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background: #002640;
+    border-bottom: 2px solid #333;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: #00b3b3;  /* Your dark blue color */
+}
+
+header nav {
+    margin-top: 1rem;
+}
+
+header nav a {
+    color: #bbb;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+header nav a:hover {
+    color: #00b3b3;
+}
+
+
+.container {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 4rem 1rem;
+}
+
+.container h2 {
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    color: #e0e0e0;
+    font-weight: 700;
+}
+
+.container p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    color: #cccccc;
+    line-height: 1.8;
+}
+
+/* Card Styles */
+.card {
+    background: linear-gradient(135deg, #1a2330, #252f3e);
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #5dd6d6;
+    font-weight: 700;
+}
+
+.card p {
+    font-size: 1.2rem;
+    color: #cccccc;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+/* Card Container */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem;
+    padding: 2rem 1rem;
+}
+
+.card-container .card {
+    margin: 0;
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+    .container h2 {
+        font-size: 2.5rem;
+    }
+
+    .container p {
+        font-size: 1rem;
+    }
+
+    .card {
+        padding: 2rem 1rem;
+    }
+
+    .card h2 {
+        font-size: 1.6rem;
+    }
+
+    .card p {
+        font-size: 1rem;
+    }
+}
+
+footer {
+    text-align: center;
+    background: #002640;
+    padding: 2rem;
+    color: #bbb;
+    margin-top: 3rem;
+    border-top: 1px solid #333;
+}
+
+
+/* Form Styles */
+form {
+    background: #002640;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #444;
+    border-radius: 12px;
+    background: #001727;
+    color: #fff;
+    font-size: 1rem;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #00b3b3;
+    outline: none;
+}
+
+form button {
+    background: #00b3b3;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 100%;
+}
+
+form button:hover {
+    background: #00e0e0;
+}
+
+/* Login Page Styles */
+.login-container {
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+.login-container h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid #444;
+    background: #001727;
+    color: #fff;
+}
+
+.login-container input:focus {
+    border-color: #00b3b3;
+    outline: none;
+}
+
+.login-container button {
+    width: 100%;
+    background: #00b3b3;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.login-container button:hover {
+    background: #00e0e0;
+}
+
+.login-container .footer-text {
+    text-align: center;
+    font-size: 1rem;
+    color: #bbb;
+    margin-top: 2rem;
+}
+
+/* Styling the logo */
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 60px;
+    height: auto;
+}
+
+a.logout-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+a.logout-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-5px);
+}
+
+a.logout-btn:active {
+    background-color: #004080;
+    transform: translateY(2px);
+}
+
+a.logout-btn:focus {
+    outline: none;
+}
+
+a.logout-btn:focus-visible {
+    outline: 2px solid #0056b3;
+}
+
+
+/* Flag Display */
+.flag {
+    background: #002640;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #444;
+}
+
+table th {
+    background: #002640;
+    color: #fff;
+}
+
+table td {
+    background: #001727;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);  /* 2 cards in a row for medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header nav {
+        font-size: 1.1rem;
+    }
+
+    .container {
+        padding: 2rem 1rem;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;  /* 1 card per row for smaller screens */
+    }
+
+    .card {
+        margin-bottom: 1.5rem;
+    }
+
+    .card h2 {
+        font-size: 1.3rem;
+    }
+
+    .card p {
+        font-size: 0.9rem;
+    }
+}
+
+.popup-success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}

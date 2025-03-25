@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  web_mars:
+    build: .
+    container_name: web_mars
+    ports:
+      - "5701:5005"
+    volumes:
+      - ./challenge:/app/challenge
+      - ./config:/app/config
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+    command: ["/usr/bin/supervisord", "-c", "/etc/supervisord.conf"]

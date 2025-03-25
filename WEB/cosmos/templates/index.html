@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmos Exploration</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" href="static/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<header>
+    <h1>C🌌smos Exploration</h1>
+    <nav>
+        <a href="/">Home</a>
+        {% if session.get('username') != 'cosmos' %}
+            <a href="/login">Login</a>
+        {% else %}
+            <a href="/logout">Logout</a>
+        {% endif %}
+        {% if session.get('username') == 'cosmos' %}
+            <a href="/cosmos">Cosmos</a>
+        {% endif %}
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Welcome to the Cosmos Exploration Portal</h2>
+    <p>Explore the mysteries of space, discover distant planets, and learn about groundbreaking space missions.</p>
+
+    <div class="card">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/039/461/557/small/ai-generated-icy-pluton-planet-generate-ai-photo.jpg" alt="Planet">
+        <h2>Mars</h2>
+        <p>Mars is known as the Red Planet. It's the fourth planet from the Sun and the second-smallest planet in the Solar System.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/050/393/371/small/a-mesmerizing-galaxy-scene-with-colorful-nebulae-and-star-clusters-photo.jpg" alt="Galaxy">
+        <h2>Milky Way</h2>
+        <p>The Milky Way is our galaxy, home to billions of stars, including our Sun. It's a spiral galaxy spanning 100,000 light-years.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://www.nasa.gov/wp-content/uploads/2022/05/Aldrin_Apollo_11-1.jpeg" alt="Space Mission">
+        <h2>Apollo 11</h2>
+        <p>Apollo 11 was the first spaceflight to land humans on the Moon. It was launched by NASA on July 16, 1969.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/021/825/923/small/astronaut-in-space-with-planets-in-background-free-photo.jpg" alt="Astronaut">
+        <h2>cosmos</h2>
+        <p>The Cosmos project explores the universe's wonders, but during development, the password was accidentally exposed. When checked on Have I Been Pwned, it was found that "This password has been seen 10,437,277 times before," highlighting the critical need for strong password practices and vigilance.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/032/486/291/small/telescope-silhouette-against-night-sky-background-generative-ai-photo.jpg" alt="Telescope">
+        <h2>Hubble Telescope</h2>
+        <p>The Hubble Space Telescope is a large telescope in space that was launched in 1990. It has provided stunning images of space.</p>
+    </div>
+
+    <div class="card">
+        <img src="https://cdn.mos.cms.futurecdn.net/RpE3BpstutZhCEhbwZegX.png" alt="Black Hole">
+        <h2>Black Holes</h2>
+        <p>Black holes are regions of space where gravity is so strong that nothing, not even light, can escape from it.</p>
+    </div>
+</div>
+
+<footer>
+    <p>Powered by Cosmos Exploration Team | © 2025 All rights reserved.</p>
+</footer>
+
+</body>
+</html>

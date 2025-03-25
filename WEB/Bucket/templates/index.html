@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-content">
+        <h1>Discover TV's Greatest Episodes</h1>
+        <p>Explore the most iconic moments from television's best shows</p>
+    </div>
+</section>
+
+<section class="episode-navigation">
+    <h2>Featured Episodes</h2>
+    <div class="filter-container">
+        <button class="filter-btn active" data-filter="all">All Shows</button>
+        <button class="filter-btn" data-filter="Game of Thrones">Game of Thrones</button>
+        <button class="filter-btn" data-filter="Breaking Bad">Breaking Bad</button>
+        <button class="filter-btn" data-filter="The Sopranos">The Sopranos</button>
+        <button class="filter-btn" data-filter="LOST">LOST</button>
+        <button class="filter-btn" data-filter="Mad Men">Mad Men</button>
+        <button class="filter-btn" data-filter="Suits">Suits</button>
+        <button class="filter-btn" data-filter="Better Call Saul">Better Call Saul</button>
+    </div>
+    
+    <div class="episodes-grid">
+        {% for episode_id, episode in episodes.items() %}
+        <div class="episode-card" data-show="{{ episode.show }}">
+            <div class="episode-image">
+                <img src="{{ episode.image }}" alt="{{ episode.title }}">
+                <div class="rating"><i class="fas fa-star"></i> {{ episode.rating }}</div>
+            </div>
+            <div class="episode-info">
+                <h3>{{ episode.title }}</h3>
+                <p class="show-name">{{ episode.show }} (S{{ episode.season }}E{{ episode.episode }})</p>
+                <p class="description">{{ episode.description[:100] }}{% if episode.description|length > 100 %}...{% endif %}</p>
+                <a href="{{ url_for('episode_detail', episode_id=episode_id) }}" class="view-btn">View Details</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const episodeCards = document.querySelectorAll('.episode-card');
+        
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                
+                // Add active class to clicked button
+                button.classList.add('active');
+                
+                const filter = button.getAttribute('data-filter');
+                
+                // Show/hide episodes based on filter
+                episodeCards.forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-show') === filter) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    });
+</script>
+{% endblock %}

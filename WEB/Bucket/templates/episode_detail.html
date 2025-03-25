@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+
+{% block title %}{{ episode.title }} | {{ episode.show }}{% endblock %}
+
+{% block content %}
+<div class="episode-detail">
+    <div class="breadcrumb">
+        <a href="{{ url_for('index') }}">Home</a> &gt; 
+        <span>{{ episode.show }}</span> &gt; 
+        <span>{{ episode.title }}</span>
+    </div>
+    
+    <div class="episode-header">
+        <h1>{{ episode.title }}</h1>
+        <div class="episode-meta">
+            <span class="show">{{ episode.show }}</span>
+            <span class="season">Season {{ episode.season }}, Episode {{ episode.episode }}</span>
+            <span class="rating"><i class="fas fa-star"></i> {{ episode.rating }}</span>
+        </div>
+    </div>
+    
+    <div class="episode-content">
+        <div class="episode-image-large">
+            <img src="{{ episode.image }}" alt="{{ episode.title }}">
+        </div>
+        
+        <div class="episode-description">
+            <h2>Episode Summary</h2>
+            <p>{{ episode.description }}</p>
+            
+            <div class="user-rating">
+                <h3>Rate this episode:</h3>
+                <div class="stars">
+                    <i class="far fa-star" data-rating="1"></i>
+                    <i class="far fa-star" data-rating="2"></i>
+                    <i class="far fa-star" data-rating="3"></i>
+                    <i class="far fa-star" data-rating="4"></i>
+                    <i class="far fa-star" data-rating="5"></i>
+                </div>
+                <div class="rating-message"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="similar-episodes">
+        <h2>You might also like</h2>
+        <div class="similar-grid">
+            {% for episode_id, ep in episodes.items() %}
+                {% if ep.show == episode.show and ep.title != episode.title %}
+                <div class="similar-card">
+                    <img src="{{ ep.image }}" alt="{{ ep.title }}">
+                    <div class="similar-info">
+                        <h4>{{ ep.title }}</h4>
+                        <p>S{{ ep.season }}E{{ ep.episode }}</p>
+                        <a href="{{ url_for('episode_detail', episode_id=episode_id) }}">View</a>
+                    </div>
+                </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const stars = document.querySelectorAll('.stars i');
+        const ratingMessage = document.querySelector('.rating-message');
+        
+        stars.forEach(star => {
+            star.addEventListener('mouseover', () => {
+                const rating = parseInt(star.getAttribute('data-rating'));
+                
+                // Reset all stars
+                stars.forEach(s => s.className = 'far fa-star');
+                
+                // Fill stars up to the hovered one
+                for (let i = 0; i < rating; i++) {
+                    stars[i].className = 'fas fa-star';
+                }
+            });
+            
+            star.addEventListener('mouseout', () => {
+                // Reset all stars when not hovering
+                stars.forEach(s => s.className = 'far fa-star');
+            });
+            
+            star.addEventListener('click', () => {
+                const rating = parseInt(star.getAttribute('data-rating'));
+                
+                // Send rating to server
+                fetch('{{ url_for("submit_rating") }}', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        episode_id: '{{ episode_id }}',
+                        rating: rating
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        ratingMessage.textContent = 'Thanks for your rating!';
+                        ratingMessage.style.color = 'green';
+                    } else {
+                        ratingMessage.textContent = 'Error submitting rating.';
+                        ratingMessage.style.color = 'red';
+                    }
+                })
+                .catch(error => {
+                    ratingMessage.textContent = 'Error submitting rating.';
+                    ratingMessage.style.color = 'red';
+                });
+            });
+        });
+    });
+</script>
+{% endblock %}

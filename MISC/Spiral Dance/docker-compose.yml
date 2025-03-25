@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  spiraldance:
+    build: .
+    container_name: spiraldance_challenge
+    ports:
+      - "3003:3003"
+    restart: unless-stopped
+    networks:
+      - challenge_net
+
+networks:
+  challenge_net:
+    driver: bridge

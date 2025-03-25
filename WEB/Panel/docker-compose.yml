@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  panel:
+    build: .
+    ports:
+      - "5401:5000"
+    deploy:
+      replicas: 1
+    restart: always
+    volumes:
+      - ./templates:/app/templates
+      - ./static:/app/static

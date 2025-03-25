@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" href="static/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to C🌌smos </h1>
+        <p>Explore the unknown... or just try some queries!</p>
+
+
+
+        <form method="POST">
+            <label for="query">Search Here:</label><br>
+            <textarea name="query" rows="5" cols="50" placeholder=""></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+
+
+        {% if bypass_success %}
+        <div class="popup-success">
+            Ooops!
+        </div>
+        {% endif %}
+
+        {% if results %}
+            <h2>Results:</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Password</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for result in results %}
+                        <tr>
+                            <td>{{ result[0] }}</td>
+                            <td>{{ result[1] }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% endif %}
+    </div>
+</body>
+
+</html>

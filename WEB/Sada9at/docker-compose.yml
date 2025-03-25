@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  editor:
+    build: .
+    ports:
+      - "5501-5510:3000"
+    deploy:
+      replicas: 10
+    restart: always
+    volumes:
+      - ./templates:/app/templates
+      - ./static:/app/static

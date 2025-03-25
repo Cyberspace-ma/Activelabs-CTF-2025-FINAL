@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  3w:
+    build: .
+    container_name: 3w_challenge
+    ports:
+      - "8003:8003"
+    restart: unless-stopped
+    networks:
+      - challenge_net
+
+networks:
+  challenge_net:
+    driver: bridge

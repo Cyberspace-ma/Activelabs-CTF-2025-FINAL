@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  bucket:
+    build: .
+    ports:
+      - "5301:5301"
+    deploy:
+      replicas: 1
+    restart: always
+    volumes:
+      - ./templates:/app/templates
+      - ./static:/app/static

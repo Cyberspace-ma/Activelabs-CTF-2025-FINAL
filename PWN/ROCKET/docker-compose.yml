@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  rocket:
+    build: .
+    container_name: rocket_challenge
+    ports:
+      - "8001:8001"
+    restart: unless-stopped
+    networks:
+      - challenge_net
+
+networks:
+  challenge_net:
+    driver: bridge
