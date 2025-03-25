@@ -9,36 +9,37 @@ Welcome to the CTF Writeups Repository! Below is a list of challenges categorize
 
 | Category  | Challenge Name         | Points | Solves | Difficulty | Authors          |
 |-----------|------------------------|--------|--------|------------|------------------|
-| **MISC**  | Sanity Check            | 186    | 10     | Easy       | Mr_Togoo         |
-|           | Spiral Dance            | 311    | 8      | Easy       | 0xY47            |
-|           | Waving                  | 291    | 10     | Easy       | 0xY47            |
-|           | Blacklist Terminal      | 454    | 2      | Medium     | 0xY47            |
-|           | Ciphers                 | 330    | 4      | Medium     | Mr_Togoo         |
-|           | Fsociety                | 424    | 8      | Medium     | 0xY47            |
-| **WEB**   | Panel                   | 291    | 10     | Easy       | 0xY47            |
-|           | Sada9at                 | 325    | 7      | Easy       | 0xY47            |
-|           | Bucket                  | 481    | 2      | Medium     | 0xY47            |
-|           | Mars                    | 417    | 3      | Medium     | 0xY47            |
-|           | Cosmos                  | 500    | 0      | Hard       | 0xY47            |
-| **PWN**   | ROCKET                  | 279    | 5      | Medium     | THE-GOAT         |
-|           | 3W                      | 362    | 5      | Medium     | THE-GOAT         |
-|           | SCRATCH                 | 500    | 0      | Hard       | THE-GOAT         |
-| **CRYPTO**| MADNESS                 | 373    | 6      | Medium     | THE-GOAT         |
-|           | OLDER THAN ME           | 500    | 1      | Medium     | THE-GOAT         |
-|           | TOTAL WAR               | 311    | 8      | Medium     | THE-GOAT         |
-|           | SIGABA                  | 500    | 0      | Hard       | THE-GOAT         |
-| **REVERSE**| Brave Game             | 311    | 8      | Medium     | Mr_Togoo         |
-|           | Shujaa                  | 247    | 4      | Medium     | Mr_Togoo         |
-|           | Hannibal                | 352    | 3      | Hard       | Mr_Togoo         |
-| **DFIR**  | Warmup                  | 500    | 1      | Medium     | Mr_Togoo         |
-|           | Behind the Logs         | 454    | 2      | Medium     | Mr_Togoo         |
-|           | Chorta El 3ilmya        | 500    | 0      | Hard       | Mr_Togoo         |
-|           | Evidence Trace          | 500    | 0      | Hard       | Mr_Togoo         |
-| **OSINT** | Techno                  | 278    | 5      | Medium     | Mr_Togoo         |
-|           | Cracked                 | 430    | 7      | Medium     | 0xY47            |
-|           | Operation Talent        | 278    | 5      | Medium     | 0xY47            |
-|           | Activelabs              | 500    | 0      | Hard       | Mr Togoo         |
-| **AI**    | THE GUARDIAN            | 653    | 3      | Hard       | D@rkshell        |
+| **MISC**  | [Sanity Check](#)       | 186    | 10     | Easy       | Mr_Togoo         |
+|           | [Spiral Dance](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/MISC/Spiral%20Dance)       | 311    | 8      | Easy       | 0xY47            |
+|           | [Waving](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/MISC/Waving)             | 291    | 10     | Easy       | 0xY47            |
+|           | [Blacklist Terminal](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/MISC/blacklist) | 454    | 2      | Medium     | 0xY47            |
+|           | [Ciphers](#)            | 330    | 4      | Medium     | Mr_Togoo         |
+|           | [Fsociety](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/MISC/Fsociety)           | 424    | 8      | Medium     | 0xY47            |
+| **WEB**   | [Panel](#)              | 291    | 10     | Easy       | 0xY47            |
+|           | [Sada9at](#)            | 325    | 7      | Easy       | 0xY47            |
+|           | [Bucket](#)             | 481    | 2      | Medium     | 0xY47            |
+|           | [Mars](#)               | 417    | 3      | Medium     | 0xY47            |
+|           | [Cosmos](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/WEB/cosmos)             | 500    | 0      | Hard       | 0xY47            |
+| **PWN**   | [ROCKET](#)             | 279    | 5      | Medium     | THE-GOAT         |
+|           | [3W](#)                 | 362    | 5      | Medium     | THE-GOAT         |
+|           | [SCRATCH](#)            | 500    | 0      | Hard       | THE-GOAT         |
+| **CRYPTO**| [MADNESS](#)            | 373    | 6      | Medium     | THE-GOAT         |
+|           | [OLDER THAN ME](#)      | 500    | 1      | Medium     | THE-GOAT         |
+|           | [TOTAL WAR](#)          | 311    | 8      | Medium     | THE-GOAT         |
+|           | [SIGABA](#)             | 500    | 0      | Hard       | THE-GOAT         |
+| **REVERSE**| [Brave Game](#)        | 311    | 8      | Medium     | Mr_Togoo         |
+|           | [Shujaa](#)             | 247    | 4      | Medium     | Mr_Togoo         |
+|           | [Hannibal](#)           | 352    | 3      | Hard       | Mr_Togoo         |
+| **DFIR**  | [Warmup](#)             | 500    | 1      | Medium     | Mr_Togoo         |
+|           | [Behind the Logs](#)    | 454    | 2      | Medium     | Mr_Togoo         |
+|           | [Chorta El 3ilmya](#)   | 500    | 0      | Hard       | Mr_Togoo         |
+|           | [Evidence Trace](#)     | 500    | 0      | Hard       | Mr_Togoo         |
+| **OSINT** | [Techno](#)             | 278    | 5      | Medium     | Mr_Togoo         |
+|           | [Cracked](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/OSINT/Cracked)            | 430    | 7      | Medium     | 0xY47            |
+|           | [Operation Talent](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/OSINT/Operation%20Talent)   | 278    | 5      | Medium     | 0xY47            |
+|           | [Activelabs](#)         | 500    | 0      | Hard       | Mr Togoo         |
+| **AI**    | [THE GUARDIAN](#)       | 653    | 3      | Hard       | D@rkshell        |
+
 
 
 ### Difficulty Levels
