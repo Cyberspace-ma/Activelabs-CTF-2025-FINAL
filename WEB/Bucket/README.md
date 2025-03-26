@@ -20,7 +20,7 @@ By accessing one of these links, you will be directed to a file named `secret.tx
 
 When you open `secret.txt` in your browser, you will find a secret string encoded in Base64 format.
 
-![link](https://github.com/user-attachments/assets/04efe689-3749-4df1-802f-d808785717d3)
+![base flag](https://github.com/user-attachments/assets/b223c000-cb8e-4851-a500-4a098723c174)
 
 
 The string looks like this:
