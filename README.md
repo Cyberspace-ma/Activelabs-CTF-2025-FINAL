@@ -15,23 +15,23 @@ Welcome to the CTF Writeups Repository! Below is a list of challenges categorize
 |           | [Blacklist Terminal](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/MISC/blacklist) | 454    | 2      | Medium     | 0xY47            |
 |           | [Ciphers](#)            | 330    | 4      | Medium     | Mr_Togoo         |
 |           | [Fsociety](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/MISC/Fsociety)           | 424    | 8      | Medium     | 0xY47            |
-| **WEB**   | [Panel](#)              | 291    | 10     | Easy       | 0xY47            |
-|           | [Sada9at](#)            | 325    | 7      | Easy       | 0xY47            |
-|           | [Bucket](#)             | 481    | 2      | Medium     | 0xY47            |
-|           | [Mars](#)               | 417    | 3      | Medium     | 0xY47            |
+| **WEB**   | [Panel](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/WEB/Panel)              | 291    | 10     | Easy       | 0xY47            |
+|           | [Sada9at](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/WEB/Sada9at)            | 325    | 7      | Easy       | 0xY47            |
+|           | [Bucket](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/WEB/Bucket)             | 481    | 2      | Medium     | 0xY47            |
+|           | [Mars](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/WEB/Mars)               | 417    | 3      | Medium     | 0xY47            |
 |           | [Cosmos](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/WEB/cosmos)             | 500    | 0      | Hard       | 0xY47            |
-| **PWN**   | [ROCKET](#)             | 279    | 5      | Medium     | THE-GOAT         |
-|           | [3W](#)                 | 362    | 5      | Medium     | THE-GOAT         |
-|           | [SCRATCH](#)            | 500    | 0      | Hard       | THE-GOAT         |
-| **CRYPTO**| [MADNESS](#)            | 373    | 6      | Medium     | THE-GOAT         |
-|           | [OLDER THAN ME](#)      | 500    | 1      | Medium     | THE-GOAT         |
-|           | [TOTAL WAR](#)          | 311    | 8      | Medium     | THE-GOAT         |
-|           | [SIGABA](#)             | 500    | 0      | Hard       | THE-GOAT         |
+| **PWN**   | [ROCKET](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/PWN/ROCKET)             | 279    | 5      | Medium     | THE-GOAT         |
+|           | [3W](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/PWN/3W)                 | 362    | 5      | Medium     | THE-GOAT         |
+|           | [SCRATCH](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/PWN/SCRATCH)            | 500    | 0      | Hard       | THE-GOAT         |
+| **CRYPTO**| [MADNESS](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/Cryptography/MADNESS)            | 373    | 6      | Medium     | THE-GOAT         |
+|           | [OLDER THAN ME](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/Cryptography/OLTHERTHANME)      | 500    | 1      | Medium     | THE-GOAT         |
+|           | [TOTAL WAR](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/Cryptography/TOTAL%20WAR)          | 311    | 8      | Medium     | THE-GOAT         |
+|           | [SIGABA](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/Cryptography/SIGABA)             | 500    | 0      | Hard       | THE-GOAT         |
 | **REVERSE**| [Brave Game](#)        | 311    | 8      | Medium     | Mr_Togoo         |
 |           | [Shujaa](#)             | 247    | 4      | Medium     | Mr_Togoo         |
 |           | [Hannibal](#)           | 352    | 3      | Hard       | Mr_Togoo         |
-| **DFIR**  | [Warmup](#)             | 500    | 1      | Medium     | Mr_Togoo         |
-|           | [Behind the Logs](#)    | 454    | 2      | Medium     | Mr_Togoo         |
+| **DFIR**  | [Warmup](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/DFIR/Warmup)             | 500    | 1      | Medium     | Mr_Togoo         |
+|           | [Behind the Logs](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/DFIR/Behind%20the%20logs)    | 454    | 2      | Medium     | Mr_Togoo         |
 |           | [Chorta El 3ilmya](#)   | 500    | 0      | Hard       | Mr_Togoo         |
 |           | [Evidence Trace](#)     | 500    | 0      | Hard       | Mr_Togoo         |
 | **OSINT** | [Techno](#)             | 278    | 5      | Medium     | Mr_Togoo         |
