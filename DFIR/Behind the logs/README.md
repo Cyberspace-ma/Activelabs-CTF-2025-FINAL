@@ -1,5 +1,3 @@
-### SMILAH :
-
 # Description :
 
 > A major financial institution suffered a critical security breach in their client database. Hackers exfiltrated sensitive credit card information belonging to over 500 high-profile clients. The breach went undetected for hours until a security analyst, reviewing alerts in the bank’s SIEM system, flagged a suspicious event. The forensic team quickly extracted logs from the SIEM. Can you help the SOC team determine how this happened !!!
