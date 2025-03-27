@@ -33,7 +33,7 @@ Welcome to the CTF Writeups Repository! Below is a list of challenges categorize
 | **DFIR**  | [Warmup](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/DFIR/Warmup)             | 500    | 1      | Medium     | Mr_Togoo         |
 |           | [Behind the Logs](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/DFIR/Behind%20the%20logs)    | 454    | 2      | Medium     | Mr_Togoo         |
 |           | [Chorta El 3ilmya](#)   | 500    | 0      | Hard       | Mr_Togoo         |
-|           | [Evidence Trace](#)     | 500    | 0      | Hard       | Mr_Togoo         |
+|           | [Evidence Trace](#)     | 500    | 0      | Medium     | Mr_Togoo         |
 | **OSINT** | [Techno](#)             | 278    | 5      | Medium     | Mr_Togoo         |
 |           | [Cracked](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/OSINT/Cracked)            | 430    | 7      | Medium     | 0xY47            |
 |           | [Operation Talent](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/OSINT/Operation%20Talent)   | 278    | 5      | Medium     | 0xY47            |
