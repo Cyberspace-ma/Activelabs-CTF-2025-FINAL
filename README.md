@@ -29,7 +29,7 @@ Welcome to the CTF Writeups Repository! Below is a list of challenges categorize
 |           | [SIGABA](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/Cryptography/SIGABA)             | 500    | 0      | Hard       | THE-GOAT         |
 | **REVERSE**| [Brave Game](#)        | 311    | 8      | Medium     | Mr_Togoo         |
 |           | [Shujaa](#)             | 247    | 4      | Medium     | Mr_Togoo         |
-|           | [Hannibal](#)           | 352    | 3      | Hard       | Mr_Togoo         |
+|           | [Hannibal](#)           | 352    | 3      | Medium     | Mr_Togoo         |
 | **DFIR**  | [Warmup](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/DFIR/Warmup)             | 500    | 1      | Medium     | Mr_Togoo         |
 |           | [Behind the Logs](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/DFIR/Behind%20the%20logs)    | 454    | 2      | Medium     | Mr_Togoo         |
 |           | [Chorta El 3ilmya](#)   | 500    | 0      | Hard       | Mr_Togoo         |
