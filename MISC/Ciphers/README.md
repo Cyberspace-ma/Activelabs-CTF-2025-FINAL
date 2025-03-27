@@ -12,7 +12,7 @@ Quickly 1nvestigating, Networks Question experts, 0penly holding options, Xplori
 
 
 So, you get this Base64:
-`Q1NQe0hoX0JhM2RfTTRyNHRfS2g1bjRfSDFfTmtoNERNMF9SNFNONH0=`
+`Q1NQe0hoX0JhM2RfTTRyNHRfS2g1bjRfSDFfTmtoNERNMF9SNFNONH0`
 
 And congrats , you got the flag!!!
 
