@@ -13,7 +13,7 @@ Welcome to the CTF Writeups Repository! Below is a list of challenges categorize
 |           | [Spiral Dance](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/MISC/Spiral%20Dance)       | 311    | 8      | Easy       | 0xY47            |
 |           | [Waving](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/MISC/Waving)             | 291    | 10     | Easy       | 0xY47            |
 |           | [Blacklist Terminal](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/MISC/blacklist) | 454    | 2      | Medium     | 0xY47            |
-|           | [Ciphers](#)            | 330    | 4      | Medium     | Mr_Togoo         |
+|           | [Ciphers](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/MISC/Ciphers)            | 330    | 4      | Medium     | Mr_Togoo         |
 |           | [Fsociety](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/MISC/Fsociety)           | 424    | 8      | Medium     | 0xY47            |
 | **WEB**   | [Panel](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/WEB/Panel)              | 291    | 10     | Easy       | 0xY47            |
 |           | [Sada9at](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/WEB/Sada9at)            | 325    | 7      | Easy       | 0xY47            |
@@ -27,9 +27,9 @@ Welcome to the CTF Writeups Repository! Below is a list of challenges categorize
 |           | [OLDER THAN ME](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/Cryptography/OLTHERTHANME)      | 500    | 1      | Medium     | THE-GOAT         |
 |           | [TOTAL WAR](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/Cryptography/TOTAL%20WAR)          | 311    | 8      | Medium     | THE-GOAT         |
 |           | [SIGABA](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/Cryptography/SIGABA)             | 500    | 0      | Hard       | THE-GOAT         |
-| **REVERSE**| [Brave Game](#)        | 311    | 8      | Medium     | Mr_Togoo         |
-|           | [Shujaa](#)             | 247    | 4      | Medium     | Mr_Togoo         |
-|           | [Hannibal](#)           | 352    | 3      | Medium     | Mr_Togoo         |
+| **REVERSE**| [Brave Game](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/Reverse%20engineering/Brave%20game)        | 311    | 8      | Medium     | Mr_Togoo         |
+|           | [Shujaa](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/Reverse%20engineering/Shujaa)             | 247    | 4      | Medium     | Mr_Togoo         |
+|           | [Hannibal](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/Reverse%20engineering/Hannibal)           | 352    | 3      | Medium     | Mr_Togoo         |
 | **DFIR**  | [Warmup](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/DFIR/Warmup)             | 500    | 1      | Medium     | Mr_Togoo         |
 |           | [Behind the Logs](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/DFIR/Behind%20the%20logs)    | 454    | 2      | Medium     | Mr_Togoo         |
 |           | [Chorta El 3ilmya](#)   | 500    | 0      | Hard       | Mr_Togoo         |
@@ -37,7 +37,7 @@ Welcome to the CTF Writeups Repository! Below is a list of challenges categorize
 | **OSINT** | [Techno](#)             | 278    | 5      | Medium     | Mr_Togoo         |
 |           | [Cracked](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/OSINT/Cracked)            | 430    | 7      | Medium     | 0xY47            |
 |           | [Operation Talent](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/OSINT/Operation%20Talent)   | 278    | 5      | Medium     | 0xY47            |
-|           | [Activelabs](#)         | 500    | 0      | Hard       | Mr Togoo         |
+|           | [Activelabs](https://github.com/Cyberspace-ma/Activelabs-CTF-2025-FINAL/tree/main/OSINT/Activelabs)         | 500    | 0      | Hard       | Mr Togoo         |
 | **AI**    | [THE GUARDIAN](#)       | 653    | 3      | Hard       | D@rkshell        |
 
 
